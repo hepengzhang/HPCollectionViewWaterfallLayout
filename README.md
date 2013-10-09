@@ -5,7 +5,7 @@ HPCollectionViewWaterfallLayout
 
 It provides a delegate style to config the layout, which is kind of more iOS flavor.
 
-Improvements on [CHTCollectionViewWaterfallLayout]
+Improvements
 ------------
 * Support multiple sections with different number of columns
 * Use binary search to boost performance
