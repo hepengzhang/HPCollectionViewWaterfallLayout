@@ -1,11 +1,15 @@
 HPCollectionViewWaterfallLayout
 ===============================
 
-**HPCollectionViewWaterfallLayout** is inspired by **[CHTCollectionViewWaterfallLayout]**. It's a subclass of [UICollectionViewLayout].
-It looks similar to [Pinterest].
+**HPCollectionViewWaterfallLayout** is inspired by **[CHTCollectionViewWaterfallLayout]** and [Pinterest], and it's a subclass of [UICollectionViewLayout].
+
+It provides a delegate style to config the layout, which is kind of more iOS flavor.
 
 Improvements on [CHTCollectionViewWaterfallLayout]
 ------------
+* Support multiple sections with different number of columns
+* Use binary search to boost performance
+
 Screen Shots
 ------------
 ![2 columns](https://raw.github.com/chiahsien/UICollectionViewWaterfallLayout/master/Screenshots/2-columns.png)
@@ -44,11 +48,14 @@ License
 -------
 HPCollectionViewWaterfallLayout is available under the MIT license. See the LICENSE file for more info.
 
-Known Issue
------------
-None, so far.
+Contact
+-------
+Weibo: [@Teeeerry大师兄黑曼巴]
+
+gmail: hepeng.zhang1
 
 [CHTCollectionViewWaterfallLayout]: https://github.com/chiahsien/CHTCollectionViewWaterfallLayout
 [UICollectionView]: http://developer.apple.com/library/ios/#documentation/uikit/reference/UICollectionView_class/Reference/Reference.html
 [UICollectionViewLayout]: http://developer.apple.com/library/ios/#documentation/uikit/reference/UICollectionViewLayout_class/Reference/Reference.html
 [Pinterest]: http://pinterest.com/
+[@Teeeerry大师兄黑曼巴]: http://weibo.com/1801824931/
